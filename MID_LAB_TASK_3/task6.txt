@@ -1,0 +1,23 @@
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=2">
+    <title>Task_6</title>
+</head>
+<body>Blood Group
+    <select name="groupp" id="">
+        <option value="">A+</option>
+        <option value="">A-</option>
+        <option value="">B+</option>
+        <option value="">B-</option>
+        <option value="">O-</option>
+        <option value="">O+</option>
+        <option value="">AB-</option>
+        <option value="">AB+</option>
+    </select>
+    <hr style="margin-left:0; max-width: 160px;">
+    <input type="submit" value="submit">
+</body>
+</html>

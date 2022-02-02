@@ -1,0 +1,90 @@
+<html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=2">
+    <title>Task_8</title>
+</head>
+<body>
+    <center>
+    <form method="" action="">
+        <table border="2" style="border-collapse: collapse;">
+            <tr>
+                <th colspan="4"><h2>PERSON PROFILE</h2></th>
+            </tr>
+            <tr height="60px">
+                <td>Name:</td>
+                <td> <input type="text" name="name" value="" /></td>
+                <td width="30px" ></td>
+            </tr>
+            <tr height="40px">
+                <td>Email: </td>
+                <td><input type="email" name="email" value="" /></td>
+                <td width="30px" ></td>
+            </tr>
+            <tr height="60px">
+                <td>Gender: </td>
+                <td>
+                    <input type="radio" name="gender" value=""> Male
+                    <input type="radio" name="gender" value=""> Female
+                    <input type="radio" name="gender" value=""> Other
+                </td>
+                <td width="30px" ></td>
+            </tr>
+            <tr height="60px">
+                <td>Date of Birth: </td>
+                <td>
+                    <input type="text" name="dd" id="" maxlength="4" size="4"> <b>/</b>
+                    <input type="text" name="mm" id="" maxlength="4" size="4"> <b>/</b>
+                    <input type="text" name="yyyy" id="" maxlength="4" size="4">
+                    <i>(dd/mm/yyy)</i>
+                </td>
+                <td width="30px" ></td>
+            </tr>
+            <tr height="60px">
+                <td>Blood Group  </td>
+                <td>
+                    <select name="grp" id="">
+                        <option value="">A+</option>
+                        <option value="">A-</option>
+                        <option value="">B+</option>
+                        <option value="">B-</option>
+                        <option value="">O-</option>
+                        <option value="">O+</option>
+                        <option value="">AB-</option>
+                        <option value="">AB+</option>
+                    </select>
+                </td>
+                <td width="30px" ></td>
+            </tr>
+            <tr height="60px">
+                <td>Degree </td>
+                <td>
+                    <input type="checkbox" name="degree" id=""> SSC
+                    <input type="checkbox" name="degree" id=""> HSC
+                    <input type="checkbox" name="degree" id=""> BSc.
+                    <input type="checkbox" name="degree" id=""> MSc.
+                </td>
+                <td width="30px" ></td>
+            </tr>
+            <tr height="60px">
+                <td>Photo   </td>
+                <td colspan="4">
+                    <input type="file" name="photo" id="">
+                </td>
+            </tr>
+            <tr height="60px"></tr>
+            <tr height="60px">
+                <td colspan="5" align="right">
+                    <input type="submit" name="submit" value="submit">
+                    <input type="reset" name="reset" value="reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</center>
+</body>
+
+</html>

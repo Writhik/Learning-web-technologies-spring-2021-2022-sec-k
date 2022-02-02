@@ -1,0 +1,25 @@
+<html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+	 <meta http-equiv="X-UA-Compatible" content="IE-edge">
+	 <meta name="Viewport" content="width=device width, initial-scale=2">
+	 <Title>Task_4</Title>
+</head>
+<body>
+    <Fieldset style="display: inline block">
+	  <legend>Date of Birth</legend>
+          <table>
+               <th>dd</th>
+               <th>mm</th>
+               <th>yyyy</th>
+               <tr>
+                  <td><input type="text" name="dd" Value="" maxlength="4" size="4"> <b>/</b></td>
+	          <td><input type="text" name="mm" value="" maxlength="4" size="4"> <b>/</b></td>
+	          <td><input type="text" name="yyyy" Value="" maxlength="4" size="4"></td>
+               </tr>
+          </table>
+          <hr><input type="Submit" value="submit">
+	</Fieldset>
+</body>
+</html>
